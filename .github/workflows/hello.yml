@@ -8,11 +8,3 @@ jobs:
     steps:
       - name: Print a message
         run: echo "Hello from GitHub Actions!"
-```
-
-Save it, then:
-```
-git add .github/
-git commit -m "Add first GitHub Action"
-git push
-
